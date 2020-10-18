@@ -1,0 +1,253 @@
+body{
+  /*100%= 16px= 1em*/
+  color: #40514E;
+	margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+}
+p{
+  line-height: 2;
+}
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+a{
+  color: #11999E;
+   font-family: 'Montserrat', sans-serif;
+   margin: 10px 20px;
+   text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+
+}
+h1{
+  color: #66BFBF;
+	font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+
+  /*width: 10%;
+  margin: 0 auto 0 auto;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 100px;*/
+}
+
+h2{
+   color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding: 10px;
+}
+
+
+h3{ 
+  color: #11999E;
+ font- family: 'Montserrat', sans-serif;
+
+}
+.footer-link{
+  color: #11999E;
+}
+.top-container{
+	background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  /*
+    height: 200px;
+	width: 200px;
+	border: solid 10px;
+    border-color: black;*/
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container{
+  background-color:  #66BFBF;
+  padding: 50px 0 20px;
+}
+/*
+.middle-container
+  
+}
+
+{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+  
+    border: solid 20px;
+    border-color: black;
+    margin-left: 220px;
+  }
+.bottom-container{
+	background-color: red;
+	height: 200px;
+	width: 200px;
+	margin-left: 440px;
+	border: solid 10px;
+  }
+  */
+
+.skill-row{
+  width: 50%;
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+
+.free{
+     text-decoration: underline;
+ }
+ .intro{
+  width: 30%;
+  margin: auto;
+ }
+
+.contact-msg{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+ .top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  
+ }
+ .bottom-cloud{
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+ }
+ .somu{
+  height: 200px;
+  width: 200px;
+ }
+ .write{
+  height: 100px;
+  margin-right: 10px;
+  width: 100px;
+  float: left;
+ }
+ .chocolate{
+  height: 125px;
+  margin-right: 10px;
+  width: 100px;
+  float: right;
+ }
+ .btn {
+  box-shadow:inset 0px 1px 0px 0px #dcecfb;
+  background:linear-gradient(to bottom, #b11cdd4 5%, #80b5ea 100%);
+  background-color:#11cdd4;
+  border-radius:6px;
+  border:1px solid #84bbf3;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Montserrat', sans-serif;
+  font-size:19px;
+  font-weight:bold;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #528ecc;
+}
+.btn:hover {
+  background:linear-gradient(to bottom, #30e3cb 5%, #bddbfa 100%);
+  background-color:#30e3cb;
+}
+.btn:active {
+  position:relative;
+  top:1px;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size: .75rem;
+  padding: 20px 0px;
+}
+ /* for clear wrapping
+ .poet{
+  clear: left;
+ }
+.choco{
+  clear: right;
+}*/
+
+ /*html inline block display visibilty
+ <p>hello</p>
+<p class=second-para> world</p>
+<span>hello</span>
+<span>world</span>
+p{
+  background-color: red;
+  width: 100px;
+  display: inline-block;
+}
+span{
+    display: block;
+  background-color: blue;
+  width: 100px;
+}
+.second-para{
+  visibility: hidden;
+}*/
+/*
+  html code for relative fixed absolute
+<body>
+  <div class="container"> 
+  <div class="top">
+  </div>
+</div>
+  <div class="middle">
+  </div>
+  <div class="bottom">
+  </div>
+  
+  <p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p><p> hello world</p>
+  </body>
+
+  css code
+
+  body{
+  margin: 0px;
+}
+.container{
+  position: relative;
+  background-color: grey;
+  height: 300px;
+  width: 300px;
+}
+
+.top{
+  background-color: red;
+  height: 100px;
+  width :100px;
+  position: absolute;
+  left: 200px;
+}
+.middle{
+  background-color:yellow;
+  height: 100px;
+  width: 100px;
+  position: fixed;
+ top : 0px;
+  
+}
+.bottom{
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}*/
